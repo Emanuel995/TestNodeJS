@@ -1,6 +1,6 @@
 require("dotenv").config();
 console.log(process.env.PORT);
-console.log(process.env.GOOGLE_APPLICATION_CREDENTIALS);
+
 const express = require("express");
 const cors = require("cors");
 const userRoutes = require("./routes/userRoutes");
